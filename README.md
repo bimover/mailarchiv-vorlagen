@@ -33,6 +33,12 @@ sich stützt; bevor eines gilt, liest die Rechtsberatung des Büros darüber.
 | [datenschutztexte.md](datenschutztexte.md) | Textbausteine für Personal- und Website-Erklärung, Mailsignatur, Vertrag | DSG Art. 19, Art. 9 |
 | [loeschkonzept.md](loeschkonzept.md) | wer wann was löscht, und wie das nachweisbar bleibt | DSG Art. 6 Abs. 4, in Anlehnung an DIN 66398 |
 
+Das Löschkonzept verweist auf «Beilagen»: gemeint sind die Unterlagen des
+Büros selbst, also das Blatt zur Einrichtung der Sicherungen (Beilage 1),
+das Nutzungsreglement (Beilage 2) und die Löschliste (Beilage 4). Die
+Nummern stehen so darin, damit ein ausgefülltes Konzept auf sie zeigen
+kann.
+
 ## Die Reihenfolge
 
 1. **Nutzungsreglement** schreiben und die Mitarbeiter anhören. Das kommt
