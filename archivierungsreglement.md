@@ -3,7 +3,7 @@
 Was archiviert wird, wo es liegt, wer darauf zugreift und wie lange es
 bleibt. Das Gegenstück zum Nutzungsreglement.
 
-Stand 24.09.2026. Vorlage von Filum, nach DSG, DSV und der Praxis des EDÖB.
+Stand 26.09.2026. Vorlage von Filum, nach DSG, DSV und der Praxis des EDÖB.
 Die eckigen Klammern füllt das Büro aus; was ohne Klammern dasteht,
 beschreibt, wie das Archiv tatsächlich arbeitet. Keine Rechtsberatung.
 
@@ -135,8 +135,8 @@ Verlangt jemand Auskunft über seine Daten (DSG Art. 25), gilt:
 Für die Lizenz fragt die App vor jedem Lauf mit einem Hashwert je Postfach,
 aus dem archiviert wird, statt der Adresse. Nach dem Lauf meldet sie
 dieselben Hashwerte, eine Kennung des Archivs ohne Projektnamen und ohne
-Adresse, Kennung und Zeitpunkt des Laufs, die Prüfsumme seines Belegs, die
-Zahl der Nachrichten und die Zahl der Läufe. Der Hashwert ist pseudonym: Wer
+Adresse, Kennung und Zeitpunkt des Laufs, die Prüfsumme des jüngsten Belegs,
+die Zahl der Nachrichten und die Zahl der Belege. Der Hashwert ist pseudonym: Wer
 die Adresse kennt, kann ihn nachrechnen. Inhalte, Betreffzeilen und Adressen
 der Korrespondenz gehen nicht hinaus.
 

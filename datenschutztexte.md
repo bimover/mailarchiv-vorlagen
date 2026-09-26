@@ -3,7 +3,7 @@
 Die Absätze, die ein Büro mit Mailarchiv braucht, zum Übernehmen und
 Anpassen. Dazu die Klauseln, die zwischen Büro und bimover gehören.
 
-Stand 24.09.2026. Vorlage von Filum. Die eckigen Klammern füllt das Büro
+Stand 26.09.2026. Vorlage von Filum. Die eckigen Klammern füllt das Büro
 aus. Keine Rechtsberatung: Vertragsklauseln prüft die Rechtsberatung des
 Büros, bevor sie gelten.
 
@@ -44,7 +44,7 @@ Bescheid wissen.
 > Adresse selbst. Er ist pseudonym: Wer Ihre Adresse kennt, kann ihn
 > nachrechnen, aus dem Prüfwert allein lässt sie sich nicht ablesen. Dazu
 > gehen je Lauf eine Kennung des Archivs und des Laufs, der Zeitpunkt, eine
-> Prüfsumme und die Zahl der archivierten Nachrichten und Läufe. Inhalte,
+> Prüfsumme und die Zahl der archivierten Nachrichten und der Belege. Inhalte,
 > Betreffzeilen und Adressen der Korrespondenz werden nicht übermittelt.
 >
 > Sie können jederzeit Auskunft über die zu Ihrer Person bearbeiteten Daten

@@ -3,7 +3,7 @@
 Eine Seite, die ein Büro mit Mailarchiv ohnehin braucht, auch wenn es vom
 Verzeichnis befreit ist.
 
-Stand 24.09.2026. Vorlage von Filum, nach DSG Art. 12 und DSV Art. 24. Die
+Stand 26.09.2026. Vorlage von Filum, nach DSG Art. 12 und DSV Art. 24. Die
 eckigen Klammern füllt das Büro aus. Keine Rechtsberatung.
 
 ## Muss das Büro ein Verzeichnis führen?
@@ -55,7 +55,7 @@ Funktion] · **Kontakt für Datenschutzfragen:** [Mailadresse] ·
 | Bezeichnung | Lizenz und Abrechnung von Filum |
 | Zweck | Nachweis der Lizenz, Abrechnung nach archivierten Postfächern |
 | Kategorien betroffener Personen | Mitarbeiter mit archiviertem Postfach, Mitarbeiter, die die Software mit einem bimover-Konto verbinden, die Person, die das Konto führt |
-| Kategorien von Personendaten | Hashwert je archivierter Mailadresse (pseudonym), Kennung und Zeitpunkt der Läufe, Zahl der Läufe und Nachrichten, Prüfsumme der Belege, Archivkennung ohne Projektnamen und Adresse; beim Verbinden des Kontos Name, Mailadresse und Microsoft-Kennungen der Person, Gerätekennung und Rechnername; Kontoangaben der Vertragspartei |
+| Kategorien von Personendaten | Hashwert je archivierter Mailadresse (pseudonym), Kennung und Zeitpunkt der Läufe, Zahl der Nachrichten und der Belege, Prüfsumme des jüngsten Belegs, Archivkennung ohne Projektnamen und Adresse; beim Verbinden des Kontos Name, Mailadresse und Microsoft-Kennungen der Person, Gerätekennung und Rechnername; Kontoangaben der Vertragspartei |
 | Empfänger | bimover GmbH, [Adresse], als eigenständige Verantwortliche für diesen Zweck |
 | Aufbewahrungsdauer | nach den Angaben von bimover |
 | Datensicherheit | Übertragung verschlüsselt; keine Inhalte, keine Klaradressen |
