@@ -3,7 +3,7 @@
 Was archiviert wird, wo es liegt, wer darauf zugreift und wie lange es
 bleibt. Das Gegenstück zum Nutzungsreglement.
 
-Stand 19.09.2026. Vorlage von Filum, nach DSG, DSV und der Praxis des EDÖB.
+Stand 26.09.2026. Vorlage von Filum, nach DSG, DSV und der Praxis des EDÖB.
 Die eckigen Klammern füllt das Büro aus; was ohne Klammern dasteht,
 beschreibt, wie das Archiv tatsächlich arbeitet. Keine Rechtsberatung.
 
@@ -29,12 +29,22 @@ Verhaltenskontrolle verwendet.
 | Nachrichten, die eine Person selbst in den Projektordner eines Projekts einsortiert hat | ja |
 | Die Anhänge dieser Nachrichten | ja |
 | Alles Übrige im Postfach, auch Posteingang und Gesendet | nein |
+| Der öffentliche Schlüssel, mit dem eine Absenderdomäne ihre Nachrichten unterschreibt | ja, soweit eine archivierte Nachricht ihn nennt |
 | Der Ordner «Privat» | nein, er wird nie als Quelle gewählt |
 | Entwürfe | nein, sie werden übersprungen |
 | Teams-Chats, SMS, WhatsApp | nein, nicht erfasst |
 
-Es gibt keine automatische Archivierung. Was ins Archiv kommt, hat eine
-Person durch Einsortieren dazu bestimmt.
+Was ins Archiv kommt, hat eine Person durch Einsortieren dazu bestimmt.
+Stimmt sie zu, archiviert Filum ihre Projektordner danach alle zwei Stunden
+von selbst, solange sie am Rechner angemeldet ist; abschalten kann sie das
+jederzeit in den Einstellungen. Das übrige Postfach archiviert Filum nie.
+
+Für die öffentlichen Schlüssel holt Filum im Hintergrund die Kopfzeilen der
+neuesten Nachrichten im Posteingang, ohne Text und ohne Anhänge. Ausgewertet
+wird davon nur die Zeile, mit der eine Absenderdomäne ihre Nachricht
+unterschreibt; den Schlüssel fragt Filum über den Namensdienst des Büros ab.
+Die Schlüssel liegen bis zu zwölf Monate in einem Vorrat auf dem Rechner;
+ins Archiv kommen nur die, die eine archivierte Nachricht nennt.
 
 ## 3. Wo das Archiv liegt
 
@@ -43,7 +53,7 @@ Ablageort: [Pfad, zum Beispiel `\\nas\Mailarchiv` oder `/Volumes/Mailarchiv`]
 Das Archiv liegt auf einem Träger des Büros. Es wird keine Kopie bei einem
 Anbieter gehalten, und die Inhalte werden nicht an Dritte übermittelt. Was
 Filum an bimover meldet, sind Zahlen und Hashwerte für die Lizenz, keine
-Inhalte.
+Inhalte (Ziffer 10).
 
 Das Archiv liegt in einem eigenen Share, getrennt von der Projektablage
 (GeBüV Art. 7 verlangt die Trennung des Archivs vom laufenden Bestand).
@@ -122,13 +132,25 @@ Verlangt jemand Auskunft über seine Daten (DSG Art. 25), gilt:
 
 ## 10. Was an bimover geht
 
-Für die Lizenz meldet die App nach einem Lauf: je archiviertem Postfach
-einen Hashwert statt der Adresse, die Zahl der Läufe, die Zahl der
-Nachrichten und eine Archivkennung ohne Projektnamen. Inhalte, Betreffzeilen
-und Adressen gehen nicht hinaus.
+Für die Lizenz fragt die App vor jedem Lauf mit einem Hashwert je Postfach,
+aus dem archiviert wird, statt der Adresse. Nach dem Lauf meldet sie
+dieselben Hashwerte, eine Kennung des Archivs ohne Projektnamen und ohne
+Adresse, Kennung und Zeitpunkt des Laufs, die Prüfsumme des jüngsten Belegs,
+die Zahl der Nachrichten und die Zahl der Belege. Der Hashwert ist pseudonym: Wer
+die Adresse kennt, kann ihn nachrechnen. Inhalte, Betreffzeilen und Adressen
+der Korrespondenz gehen nicht hinaus.
 
-Ein Diagnosebericht entsteht nur, wenn eine Person ihn ausdrücklich
-auslöst, und enthält weder Betreff noch Adressen.
+Wer Filum mit einem bimover-Konto verbindet, gibt dabei Name, Mailadresse
+und die Kennungen von Microsoft an bimover, dazu den Namen des Rechners.
+
+Ein Diagnosebericht geht nur hinaus, wenn eine Person ihn ausdrücklich
+freigibt. Er enthält weder Betreff noch Adressen der Korrespondenz, wohl
+aber ihre eigene Kontoadresse, Projektname, Projektnummer und den letzten
+Ordner des Ablagepfads.
+
+Ausserhalb von bimover erhalten der Zeitstempeldienst je Beleg einen Hash
+und der Namensdienst des Büros die Domäne eines Absenders, deren Schlüssel
+Filum abfragt. Eine Adresse oder einen Inhalt erhält keiner der beiden.
 
 Die Mitarbeiter sind darüber informiert (DSG Art. 19 Abs. 2 lit. c).
 
