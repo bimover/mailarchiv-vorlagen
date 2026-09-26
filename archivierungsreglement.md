@@ -36,8 +36,8 @@ Verhaltenskontrolle verwendet.
 
 Was ins Archiv kommt, hat eine Person durch Einsortieren dazu bestimmt.
 Stimmt sie zu, archiviert Filum ihre Projektordner danach alle zwei Stunden
-von selbst, solange ihr Rechner läuft; abschalten kann sie das jederzeit in
-den Einstellungen. Das übrige Postfach archiviert Filum nie.
+von selbst, solange sie am Rechner angemeldet ist; abschalten kann sie das
+jederzeit in den Einstellungen. Das übrige Postfach archiviert Filum nie.
 
 Für die öffentlichen Schlüssel holt Filum im Hintergrund die Kopfzeilen der
 neuesten Nachrichten im Posteingang, ohne Text und ohne Anhänge. Ausgewertet
