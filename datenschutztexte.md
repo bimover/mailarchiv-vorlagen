@@ -3,7 +3,7 @@
 Die Absätze, die ein Büro mit Mailarchiv braucht, zum Übernehmen und
 Anpassen. Dazu die Klauseln, die zwischen Büro und bimover gehören.
 
-Stand 19.09.2026. Vorlage von Filum. Die eckigen Klammern füllt das Büro
+Stand 24.09.2026. Vorlage von Filum. Die eckigen Klammern füllt das Büro
 aus. Keine Rechtsberatung: Vertragsklauseln prüft die Rechtsberatung des
 Büros, bevor sie gelten.
 
@@ -20,7 +20,13 @@ Bescheid wissen.
 > ein Postfach nicht mehr besteht. Archiviert wird ausschliesslich, was Sie
 > selbst in den Projektordner eines Projekts einsortiert haben. Ihr
 > Posteingang, Ihr Ordner «Privat» und alles Übrige in Ihrem Postfach
-> bleiben unberührt.
+> werden nicht archiviert. Wenn Sie zustimmen, archiviert die Software Ihre
+> Projektordner alle zwei Stunden von selbst. Dabei holt sie aus Ihrem
+> Posteingang die Kopfzeilen der neuesten Nachrichten, ohne Text und ohne
+> Anhänge. Ausgewertet wird davon nur die Zeile, mit der eine
+> Absenderdomäne ihre Nachricht unterschreibt; aufbewahrt wird der
+> öffentliche Schlüssel dieser Domäne. Absender und Betreff wertet die
+> Software nicht aus.
 >
 > Das Archiv liegt auf unserem eigenen Speicher unter [Pfad oder
 > Bezeichnung]. Zugriff haben alle Mitarbeiter, lesend und schreibend;
@@ -34,9 +40,12 @@ Bescheid wissen.
 > einsehen können.
 >
 > Für die Lizenz der eingesetzten Software übermitteln wir an die bimover
-> GmbH je archiviertem Postfach einen nicht rückrechenbaren Prüfwert Ihrer
-> Adresse sowie die Anzahl archivierter Nachrichten. Inhalte, Betreffzeilen
-> und Adressen werden nicht übermittelt.
+> GmbH je archiviertem Postfach einen Prüfwert Ihrer Adresse statt der
+> Adresse selbst. Er ist pseudonym: Wer Ihre Adresse kennt, kann ihn
+> nachrechnen, aus dem Prüfwert allein lässt sie sich nicht ablesen. Dazu
+> gehen je Lauf eine Kennung des Archivs und des Laufs, der Zeitpunkt, eine
+> Prüfsumme und die Zahl der archivierten Nachrichten und Läufe. Inhalte,
+> Betreffzeilen und Adressen der Korrespondenz werden nicht übermittelt.
 >
 > Sie können jederzeit Auskunft über die zu Ihrer Person bearbeiteten Daten
 > verlangen. Wenden Sie sich an [Name, Mailadresse].

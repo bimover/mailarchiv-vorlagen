@@ -3,7 +3,7 @@
 Eine Seite, die ein Büro mit Mailarchiv ohnehin braucht, auch wenn es vom
 Verzeichnis befreit ist.
 
-Stand 19.09.2026. Vorlage von Filum, nach DSG Art. 12 und DSV Art. 24. Die
+Stand 24.09.2026. Vorlage von Filum, nach DSG Art. 12 und DSV Art. 24. Die
 eckigen Klammern füllt das Büro aus. Keine Rechtsberatung.
 
 ## Muss das Büro ein Verzeichnis führen?
@@ -43,7 +43,7 @@ Funktion] · **Kontakt für Datenschutzfragen:** [Mailadresse] ·
 | Kategorien betroffener Personen | Mitarbeiter des Büros, Bauherrschaften, Fachplaner, Unternehmer, Behördenmitarbeiter, weitere Korrespondenzpartner |
 | Kategorien von Personendaten | Name, Mailadresse, Inhalt der Nachrichten samt Anhängen, Zeitpunkt, Projektzuordnung |
 | Besonders schützenswerte Daten | nicht Gegenstand der Bearbeitung; können beiläufig vorkommen (Angaben zu Gesundheit oder Verfahren in der Korrespondenz) |
-| Empfänger | keine. Das Archiv liegt auf dem Träger des Büros |
+| Empfänger | für die Inhalte keine. Das Archiv liegt auf dem Träger des Büros. Der Zeitstempeldienst [Name] erhält je Beleg einen Hash; für die Unterschriftsprüfung erfahren der Namensdienst des Büros und der Namensserver der Absenderdomäne deren Domäne, keine Adresse |
 | Aufbewahrungsdauer | je Projekt, Beginn Projektabschluss, Regelfrist [10] Jahre; Einzelheiten im Löschkonzept |
 | Datensicherheit | Zugriff über persönliche Konten, Share getrennt von der Projektablage, tägliche Sicherungen ausserhalb der Reichweite der Belegschaft, Prüfwert je Nachricht, verkettete Belege mit Zeitstempel eines Dritten |
 | Bekanntgabe ins Ausland | keine |
@@ -54,8 +54,8 @@ Funktion] · **Kontakt für Datenschutzfragen:** [Mailadresse] ·
 |---|---|
 | Bezeichnung | Lizenz und Abrechnung von Filum |
 | Zweck | Nachweis der Lizenz, Abrechnung nach archivierten Postfächern |
-| Kategorien betroffener Personen | Mitarbeiter mit archiviertem Postfach, die Person, die das Konto führt |
-| Kategorien von Personendaten | Hashwert je archivierter Mailadresse, Zahl der Läufe und Nachrichten, Archivkennung, Kontoangaben der Vertragspartei |
+| Kategorien betroffener Personen | Mitarbeiter mit archiviertem Postfach, Mitarbeiter, die die Software mit einem bimover-Konto verbinden, die Person, die das Konto führt |
+| Kategorien von Personendaten | Hashwert je archivierter Mailadresse (pseudonym), Kennung und Zeitpunkt der Läufe, Zahl der Läufe und Nachrichten, Prüfsumme der Belege, Archivkennung ohne Projektnamen und Adresse; beim Verbinden des Kontos Name, Mailadresse und Microsoft-Kennungen der Person, Gerätekennung und Rechnername; Kontoangaben der Vertragspartei |
 | Empfänger | bimover GmbH, [Adresse], als eigenständige Verantwortliche für diesen Zweck |
 | Aufbewahrungsdauer | nach den Angaben von bimover |
 | Datensicherheit | Übertragung verschlüsselt; keine Inhalte, keine Klaradressen |
@@ -72,7 +72,7 @@ nicht unter «keine Personendaten».
 | Bezeichnung | Support und Fernunterstützung |
 | Zweck | Behebung von Störungen auf Anforderung des Büros |
 | Kategorien betroffener Personen | wie Bearbeitung 1, soweit im Einzelfall betroffen |
-| Kategorien von Personendaten | was im konkreten Supportfall sichtbar wird |
+| Kategorien von Personendaten | Text der Anfrage, Name und Mailadresse für die Antwort; nach Freigabe der Diagnosebericht mit der eigenen Kontoadresse, Projektname, Projektnummer und dem letzten Ordner des Ablagepfads; im Übrigen, was im konkreten Supportfall sichtbar wird |
 | Empfänger | bimover GmbH, in dieser Rolle Auftragsbearbeiterin |
 | Grundlage | Vertrag mit Geheimhaltungs- und Weisungsklausel, siehe `datenschutztexte.md` |
 | Aufbewahrungsdauer | für die Dauer des Falls |

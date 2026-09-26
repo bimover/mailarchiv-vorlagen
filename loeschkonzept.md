@@ -3,7 +3,7 @@
 **Büro:** [Name des Büros] · **Gültig ab:** [Datum] · **Verantwortlich:**
 [Archiv-Admin] · **Stellvertretung:** [Name] · **Fassung:** 1
 
-Vorlage von Filum, Stand 24.08.2026, nachgeführt 14.09.2026, nach dem Gerüst der DIN 66398
+Vorlage von Filum, Stand 24.08.2026, nachgeführt 26.09.2026, nach dem Gerüst der DIN 66398
 (Leitlinie Löschkonzept). Die eckigen Klammern füllt das Büro aus; was ohne
 Klammern dasteht, beschreibt, wie das Archiv tatsächlich arbeitet. Keine
 Rechtsberatung. Bei Zweifelsfällen entscheidet das Büro mit seiner
@@ -116,22 +116,25 @@ archiviert / privat». Massgebend ist das Nutzungsreglement des Büros
 ## 9. Nachweis
 
 * **Der Löschvermerk.** Jede Löschung ersetzt die Nachricht durch einen
-  Vermerk (`.geloescht.json` neben dem früheren Original): WAS entfernt
-  wurde (beide Prüfkennungen und die Prüfsummen der Anhänge, also Hashes,
-  kein Inhalt), WANN, durch WEN, aus welchem GRUND. Die Lücke bleibt in Übersicht und Verlauf sichtbar und
-  benannt. Datum, Richtung, Absendername und Betreff (gekürzt, so wie sie
-  im Dateinamen stehen) bleiben als Metadatum in Vermerk, Satz und
-  Archivstand, damit die Lücke einen benennbaren Platz hat; auch der
-  Vermerk selbst trägt diesen Dateinamen. Text und Adressen sind überall
-  entfernt, auch aus dem Suchindex. Anhänge gehen mit, soweit keine andere
+  Vermerk im Ordner der Originale. Er heisst nach der Kennung der Nachricht
+  (`<Kennung>.geloescht.json`), derselben, die in der Löschliste steht
+  (Ziff. 10); ihre ersten acht Zeichen standen im Dateinamen der Nachricht
+  direkt vor `.eml`. Der Vermerk hält fest, WAS entfernt wurde (beide
+  Prüfkennungen und die Prüfsummen der Anhänge, also Hashes, kein Inhalt),
+  WANN, durch WEN und aus welchem GRUND. Die Lücke bleibt in Übersicht und
+  Verlauf sichtbar und benannt, mit Datum und Richtung. Absendername und
+  Betreff gehen mit der Nachricht: Sie standen auch in ihrem Dateinamen, und
+  darum trägt weder der Vermerk noch der geschwärzte Eintrag noch der
+  Archivstand diesen Namen weiter. Text und Adressen
+  sind überall entfernt, auch aus dem Suchindex. Anhänge gehen mit, soweit keine andere
   Nachricht sie hat: Filum entfernt im Ordner des Anhangs jede Datei mit
   genau seinem Inhalt, auch eine Kopie unter anderem Namen, und lässt jede
   andere Datei liegen, auch die eines Anhangs, den eine andere Nachricht
   braucht. Liegt im Ablageordner auf dem Weg zu einer Datei, die die
   Löschung anfassen müsste, ein Verweis (symbolischer Link), entfernt Filum
   nichts und sagt es. Liegt die
-  Nachricht als Gerüst (Option «Anhänge nur einmal ablegen»), steht der
-  Vermerk neben dem Gerüst, und für seine Teile gilt dasselbe. Kann Filum
+  Nachricht als Gerüst (Option «Anhänge nur einmal ablegen»), gilt für
+  seine Teile dasselbe. Kann Filum
   einen Teil des Archivs nicht lesen, den die Löschung braucht, entfernt es
   nichts und sagt es. Bricht eine Löschung ab, solange das Original oder
   ein Anhang, der mit ihm gehen muss, noch daliegt, nennt die Prüfung sie
@@ -172,10 +175,11 @@ das Löschen heisst das:
   überschrieben.
 * **Zurückgeholt wird nur einzeln**, was die Prüfung als fehlend oder
   verändert nennt, und nie eine gelöschte Nachricht: Liegt im jüngsten
-  Snapshot an ihrem Platz ein Vermerk, bleibt sie weg, und fehlt nur der
-  Vermerk, kommt nur er zurück. Die Dateien unter `.filum/stand` kommen
-  nur aus Sicherungen nach der letzten Löschung zurück, weil ältere den
-  Inhalt gelöschter Nachrichten tragen.
+  Snapshot im Ordner der Originale ein Vermerk, dessen Name mit den acht
+  Zeichen vor `.eml` im Dateinamen der Nachricht beginnt, bleibt sie weg,
+  und fehlt nur der Vermerk, kommt nur er zurück. Die Dateien unter
+  `.filum/stand` kommen nur aus Sicherungen nach der letzten Löschung
+  zurück, weil ältere den Inhalt gelöschter Nachrichten tragen.
 * **Nach einer Gesamtwiederherstellung** (ganzes Share aus einer älteren
   Sicherung) kennt das Archiv die Löschungen seit dieser Sicherung nicht
   mehr. Der Archiv-Admin wiederholt sie anhand der **Löschliste**
