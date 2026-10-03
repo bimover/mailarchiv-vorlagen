@@ -60,23 +60,29 @@ Nachrichten prüfen muss.
 
 ## 4. Was archiviert wird
 
-Archiviert wird ausschliesslich, was eine Person selbst in den Projektordner
-eines Projekts einsortiert hat. Wer zustimmt, dessen Projektordner
-archiviert die Software danach alle zwei Stunden von selbst; das übrige
-Postfach archiviert sie nie.
+Archiviert wird ausschliesslich, was eine Person selbst einem Projekt gibt:
+indem sie es in den Projektordner eines Projekts einsortiert oder indem sie
+Regeln setzt, etwa einen Kontakt oder die Projektnummer. Wer zustimmt,
+dessen Projekte archiviert die Software danach alle zwei Stunden von selbst.
+Was weder einsortiert ist noch von einer Regel der Person einem Projekt
+gegeben wird, archiviert sie nie, und Adressen und Domains, die die Person
+als privat bezeichnet, in keinem Projekt.
 
-Zwei Dinge liest die Software über den Projektordner hinaus, beide nur auf
-dem Rechner der Person. Beim Einsortieren schlägt sie auf Wunsch Nachrichten
-aus Posteingang und gesendeter Post vor; die Vorschläge sieht nur die Person
-selbst, und übernommen wird nur, was sie bestätigt. Und im Hintergrund holt
-sie die Kopfzeilen der neuesten Nachrichten im Posteingang, ohne Text und
-ohne Anhänge, sofern die Person dem zugestimmt hat. Davon wertet sie nur die
-Zeile aus, mit der eine Absenderdomäne ihre Nachricht unterschreibt, und
-bewahrt den öffentlichen Schlüssel dieser Domäne auf; Absender und Betreff
-wertet sie nicht aus.
+Drei Dinge liest die Software über den Projektordner hinaus, alle nur auf
+dem Rechner der Person. Setzt die Person Regeln, liest sie Posteingang und
+gesendete Post samt dem Text neuer Nachrichten, um darin Projektnummer und
+Projektname zu finden; was zu mehreren Projekten passt, legt sie nur der
+Person zur Entscheidung vor. Beim Einsortieren schlägt sie auf Wunsch
+Nachrichten aus Posteingang und gesendeter Post vor; die Vorschläge sieht nur
+die Person selbst, und übernommen wird nur, was sie bestätigt. Und im
+Hintergrund holt sie die Kopfzeilen der neuesten Nachrichten im Posteingang,
+ohne Text und ohne Anhänge, sofern die Person dem zugestimmt hat. Davon
+wertet sie nur die Zeile aus, mit der eine Absenderdomäne ihre Nachricht
+unterschreibt, und bewahrt den öffentlichen Schlüssel dieser Domäne auf.
 
-Es gibt keine Auswertung von Randdaten über Personen und keine Durchsuchung
-von Inhalten.
+Es gibt keine Auswertung von Randdaten über Personen. Inhalte liest die
+Software nur, um Nachrichten Projekten zuzuordnen, nach Regeln, die jede
+Person selbst und nur für sich setzt.
 
 Was das im Einzelnen bedeutet, steht im Archivierungsreglement.
 

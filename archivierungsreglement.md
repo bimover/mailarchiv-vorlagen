@@ -27,17 +27,22 @@ Verhaltenskontrolle verwendet.
 | Was | Im Archiv |
 |---|---|
 | Nachrichten, die eine Person selbst in den Projektordner eines Projekts einsortiert hat | ja |
+| Nachrichten aus Posteingang und Gesendet, die eine Regel der Person oder ihr eigener Entscheid einem Projekt gibt | ja |
 | Die Anhänge dieser Nachrichten | ja |
-| Alles Übrige im Postfach, auch Posteingang und Gesendet | nein |
+| Nachrichten von Adressen und Domains, die die Person als privat bezeichnet | nein, in keinem Projekt |
+| Alles Übrige im Postfach | nein |
 | Der öffentliche Schlüssel, mit dem eine Absenderdomäne ihre Nachrichten unterschreibt | ja, soweit eine archivierte Nachricht ihn nennt |
 | Der Ordner «Privat» | nein, er wird nie als Quelle gewählt |
 | Entwürfe | nein, sie werden übersprungen |
 | Teams-Chats, SMS, WhatsApp | nein, nicht erfasst |
 
-Was ins Archiv kommt, hat eine Person durch Einsortieren dazu bestimmt.
-Stimmt sie zu, archiviert Filum ihre Projektordner danach alle zwei Stunden
-von selbst, solange sie am Rechner angemeldet ist; abschalten kann sie das
-jederzeit in den Einstellungen. Das übrige Postfach archiviert Filum nie.
+Was ins Archiv kommt, hat eine Person durch Einsortieren oder durch ihre
+Regeln dazu bestimmt. Um die Regeln anzuwenden, liest Filum auf ihrem
+Rechner Posteingang und Gesendet samt dem Text neuer Nachrichten; was zu
+mehreren Projekten passt, legt es nur ihr zur Entscheidung vor. Stimmt sie
+zu, archiviert Filum ihre Projekte danach alle zwei Stunden von selbst,
+solange sie am Rechner angemeldet ist; abschalten kann sie das jederzeit in
+den Einstellungen. Das übrige Postfach archiviert Filum nie.
 
 Für die öffentlichen Schlüssel holt Filum im Hintergrund die Kopfzeilen der
 neuesten Nachrichten im Posteingang, ohne Text und ohne Anhänge. Ausgewertet

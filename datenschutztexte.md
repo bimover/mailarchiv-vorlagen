@@ -18,15 +18,20 @@ Bescheid wissen.
 >
 > Wir archivieren Projektkorrespondenz, damit sie verfügbar bleibt, wenn
 > ein Postfach nicht mehr besteht. Archiviert wird ausschliesslich, was Sie
-> selbst in den Projektordner eines Projekts einsortiert haben. Ihr
-> Posteingang, Ihr Ordner «Privat» und alles Übrige in Ihrem Postfach
-> werden nicht archiviert. Wenn Sie zustimmen, archiviert die Software Ihre
-> Projektordner alle zwei Stunden von selbst. Dabei holt sie aus Ihrem
-> Posteingang die Kopfzeilen der neuesten Nachrichten, ohne Text und ohne
-> Anhänge. Ausgewertet wird davon nur die Zeile, mit der eine
-> Absenderdomäne ihre Nachricht unterschreibt; aufbewahrt wird der
-> öffentliche Schlüssel dieser Domäne. Absender und Betreff wertet die
-> Software nicht aus.
+> selbst einem Projekt geben: indem Sie es in den Projektordner eines
+> Projekts einsortieren oder indem Sie in der Software Regeln setzen, etwa
+> einen Kontakt oder die Projektnummer. Um Ihre Regeln anzuwenden, liest die
+> Software auf Ihrem Rechner Posteingang und gesendete Post samt dem Text
+> neuer Nachrichten. Was zu mehreren Projekten passt, legt sie nur Ihnen zur
+> Entscheidung vor; was keine Regel eindeutig einem Projekt gibt und Sie
+> keinem zuordnen, archiviert sie nicht. Adressen und Domains, die Sie als privat bezeichnen, archiviert
+> sie in keinem Projekt, ebenso wenig Ihren Ordner «Privat» und alles
+> Übrige in Ihrem Postfach. Wenn Sie zustimmen, archiviert die Software Ihre
+> Projekte alle zwei Stunden von selbst. Dabei holt sie aus Ihrem
+> Posteingang auch die Kopfzeilen der neuesten Nachrichten, ohne Text und
+> ohne Anhänge, für die Unterschriften der Absender. Ausgewertet wird davon
+> nur die Zeile, mit der eine Absenderdomäne ihre Nachricht unterschreibt;
+> aufbewahrt wird der öffentliche Schlüssel dieser Domäne.
 >
 > Das Archiv liegt auf unserem eigenen Speicher unter [Pfad oder
 > Bezeichnung]. Zugriff haben alle Mitarbeiter, lesend und schreibend;

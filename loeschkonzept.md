@@ -108,8 +108,9 @@ auf Weisung von …].
 ## 8. Private Mails
 
 Privates gehört nicht ins Geschäftsarchiv. Filum archiviert nur, was in
-die Projektordner einsortiert wurde. Privates landet also nur irrtümlich
-im Archiv und wird nach Feststellung gelöscht, Grund «irrtümlich
+die Projektordner einsortiert wurde oder eine Regel der Person einem
+Projekt gibt, und Adressen, die eine Person als privat bezeichnet, in
+keinem Projekt. Privates landet also nur irrtümlich im Archiv und wird nach Feststellung gelöscht, Grund «irrtümlich
 archiviert / privat». Massgebend ist das Nutzungsreglement des Büros
 [Beilage 2]; besteht keines, ist es zu erlassen.
 
