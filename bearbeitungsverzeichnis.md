@@ -42,6 +42,7 @@ Funktion] · **Kontakt für Datenschutzfragen:** [Mailadresse] ·
 | Zweck | Fortführung laufender Projekte, Rechenschaft gegenüber der Bauherrschaft (OR Art. 400 Abs. 1), Nachweis während der Haftungsfristen |
 | Kategorien betroffener Personen | Mitarbeiter des Büros, Bauherrschaften, Fachplaner, Unternehmer, Behördenmitarbeiter, weitere Korrespondenzpartner |
 | Kategorien von Personendaten | Name, Mailadresse, Inhalt der Nachrichten samt Anhängen, Zeitpunkt, Projektzuordnung |
+| Wie zugeordnet wird | Jede Person legt Nachrichten in den Projektordner oder setzt Regeln (Kontakt, Projektnummer und Name). Für die Regeln liest die Software auf ihrem Rechner Posteingang und Gesendet samt Text; archiviert wird nur, was eine Regel oder die Person einem Projekt gibt, nie Adressen, die sie als privat bezeichnet |
 | Besonders schützenswerte Daten | nicht Gegenstand der Bearbeitung; können beiläufig vorkommen (Angaben zu Gesundheit oder Verfahren in der Korrespondenz) |
 | Empfänger | für die Inhalte keine. Das Archiv liegt auf dem Träger des Büros. Der Zeitstempeldienst [Name] erhält je Beleg einen Hash; für die Unterschriftsprüfung erfahren der Namensdienst des Büros und der Namensserver der Absenderdomäne deren Domäne, keine Adresse |
 | Aufbewahrungsdauer | je Projekt, Beginn Projektabschluss, Regelfrist [10] Jahre; Einzelheiten im Löschkonzept |
